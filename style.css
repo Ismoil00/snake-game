@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: cursive;
+  display: grid;
+  place-content: center;
+  background-color: lightblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+#parentDiv {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  background-color: lightsalmon;
+  border: 1px solid darkred;
+  box-sizing: content-box;
+}
+
+.childDiv {
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgb(109, 109, 228);
+}
+
+.snake {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(252, 67, 67);
+}
